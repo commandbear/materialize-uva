@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Load an icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  
+	<title>Contato | UVA Trabalho</title> 
+
+    <style>
+        body{
+            background-color: #ffee58;
+        }
+    </style>
+
+</head>
+<body>
+	<!--Início do Cabeçalho-->
+    <nav class="nav-extended">
+        <div class="nav-wrapper blue darken-2">
+            <div class="container">
+                <a href="#" class="brand-logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/UVA_logo.svg/1024px-UVA_logo.svg.png" alt="" width="50" height="50"></a>
+                <div class="right hide-on-large-only" data-target="personal-links">
+                    <a href="#"><i class="material-icons left">shopping_cart</i></a>
+                    <a href="#"><i class="material-icons left">contact_mail</i></a>
+                    <a href="#"><i class="material-icons left">person</i></a>
+                </div>
+                
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Carrinho
+                        <i class="material-icons left">shopping_cart</i>
+                    </a></li>
+                    <li><a href="contact.html">Contato
+                        <i class="material-icons left">contact_mail</i>
+                    </a></li>
+                    <li><a href="#">Perfil
+                        <i class="material-icons left">person</i>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="nav-wrapper yellow darken-2">
+            <div class="container">
+                <a href="#" class="sidenav-trigger" data-target="category-links">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="hide-on-med-and-down">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#">Eletrodoméstico</a></li>
+                    <li><a href="#">Eletrônicos</a></li>
+                    <li><a href="#">Smartphones</a></li>
+                    <li><a href="#">Móveis</a></li>
+                    <li><a href="#">Informática</a></li>
+                    <li><a href="#">Outros</a></li>                                        
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <ul class="sidenav" id="personal-links">
+        <li><a href="#"><i class="material-icons left">shopping_cart</i></a></li>
+        <li><a href="contact.html"><i class="material-icons left">contact_mail</i></a></li>
+        <li><a href="#"><i class="material-icons left">person</i></a></li>
+    </ul>
+    
+    <ul class="sidenav" id="category-links">
+        <li><a href="#"><i class="material-icons">home</i></a></li>
+        <li><a href="#">Eletrodoméstico</a></li>
+        <li><a href="#">Eletrônicos</a></li>
+        <li><a href="#">Smartphones</a></li>
+        <li><a href="#">Móveis</a></li>
+        <li><a href="#">Informática</a></li>
+        <li><a href="#">Outros</a></li>
+    </ul>
+    <!--Fim do Cabeçalho-->
+    
+    <div class="container">
+        <script type="text/javascript" src="materialize 15.02.57/javascript.js"></script>
+    <div id="container" class="container">
+        <form name="formulario" id="idform" method="" action="">
+				<div class = "cyan darken-1 white-text">
+                    <h1 id="titulo">Dados do Produto</h1>
+                    <p id="subtitulo">Preencha os dados solicitados</p>
+                    <br>
+                </div>
+
+				<div class="form-row">
+					<div class="campos blue-text">
+						<label>Nome do Produto</label>
+						<input class="form-control" type="text" id="nome" name="nome"
+						placeholder="Mínimo de 10 e míximo 100 caracteres." required  />
+					</div>
+					
+					<div class="campos">
+						<label>Categoria</label>
+						<form action="#">
+							<p>
+								<label for="eletrodomestico"> Eletrodoméstico
+									<input type="checkbox" id="eletrodomestico"/>
+									<span></span>
+							   </label>
+
+							   <form action="#">
+								<p>
+									<label for="celular"> Celular
+										<input type="checkbox" id="celular"/>
+										<span></span>
+								   </label>
+
+								   <form action="#">
+									<p>
+										<label for="movel"> Móvel
+											<input type="checkbox" id="movel"/>
+											<span></span>
+									   </label>
+
+									   <form action="#">
+										<p>
+											<label for="outros"> Outros
+												<input type="checkbox" id="outros"/>
+												<span></span>
+										   </label>	   
+					</div>
+					
+
+					<form action="#">
+					<div class="campos">
+						<label>Vende em loja física?</label>
+						<form action="#">
+							<p>
+							  <label>
+								<input class="with-gap" name="group1" type="radio" checked />
+								<span>Sim</span>
+							  </label>
+							</p>
+							<p>
+							  <label>
+								<input class="with-gap" name="group1" type="radio" />
+								<span>Não</span>
+							  </label>
+							</p>
+
+				<div class="form-row">
+					<div class="campos">
+						<label>Quantidade</label>
+						<input class="form-control" type="number" placeholder="99999"
+							   min="0" id="quantidade" name="quantidade" />
+					</div>
+					<div class="campos">
+						<label>Preço</label>
+						<input class="form-control" type="text" pattern="[0-9]+([,][0-9]{2})?" placeholder="99999,99"
+							   min="0" step="any" id="preco" name="preco" />
+					</div>
+					<div class="campos">
+						<label>Data de Validade</label>
+						<input class="form-control" type="date" class="data" id="datavalidade" name="datavalidade" />
+					</div>
+				</div>
+
+				<div class="form-row">
+					<div class="campos">
+						<label for="descricao">Descrição</label>
+                        <br>
+						<textarea class="form-control" id="descricao" name="descricao" rows="5"  
+							placeholder="Descreva detalhes do produto aqui"></textarea>
+					</div>
+				</div>
+				
+				<button class="btn cyan waves-effect waves-light" type="submit" id="btnenviar">Salvar</button>
+				<button class="btn cyan accent-4 waves-effect waves-light " type="reset" id="btnlimpar">Limpar</button> 
+				<span class="btn-floating green darken-3 pulse material-icons white-text center">favorite_border</span>
+		</form>
+	</div>
+
+    </div>
+
+    
+
+</body>
+</html>

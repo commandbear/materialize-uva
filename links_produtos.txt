@@ -1,0 +1,79 @@
+Links das imagens do projeto
+
+HOME
+
+ELETRODOMESTICO
+link freezer1 https://consul.vtexassets.com/arquivos/ids/164128/CVU26EB-freezer-vertical-consul-231-litros-perspectiva_1650x1450.jpg?v=637945458482870000
+link freezer2 https://a-static.mlcdn.com.br/1500x1500/freezer-industrial-horizontal-metalfrio-1-tampa-293l-chest-freezer-da302/magazineluiza/010203801/5c6a72631a07ce46c78aa5b4deb1552a.jpg
+link freezer3 https://www.efacil.com.br/wcsstore/ExtendedSitesCatalogAssetStore/Imagens/1000/2219397_01.jpg
+
+link geladeira1 https://gazin-images.gazin.com.br/unsafe/origxorig/filters:format(webp):quality(90)/https://gazin-marketplace.s3.amazonaws.com/midias/imagens/2020/12/geladeira-refrigerador-electrolux-579l-frost-free-side-by-side-dm84x-102012032823.jpg
+link geladeira2 https://consul.vtexassets.com/arquivos/ids/225263/geladeira-consul-frost-free-duplex-410l-cor-inox-com-controle-interno-de-temperatura-espaco-flex-crm50hk-110v-2-CRM50HK_intellibrand.jpg?v=637941117767570000
+link geladeira3 https://moveislinhares.vteximg.com.br/arquivos/ids/164303-1000-1000/107782.jpg?v=637574601112800000
+
+link tanquinho1 https://loja.colormaq.com.br/upload/produto/imagem/tanquinho-colormaq-lct-4-5kg-11.jpg
+link tanquinho2 https://imgs.extra.com.br/1501601328/3xg.jpg
+link tanquinho3 https://a-static.mlcdn.com.br/1500x1500/tanquinho-lavadora-de-roupas-colormaq-27-kg-new-pioneer-110v-branco-color-visao/lojasxavier/476/1457b8c8e9be260937159e7bcd6af4d2.jpg
+
+link lavadora1 https://www.havan.com.br/media/catalog/product/cache/73a52df140c4d19dbec2b6c485ea6a50/l/a/lavadora-de-roupas-8-5kg-electrolux-lt09e-branca_238242_6.jpg
+link lavadora2 https://awstatic-5754.kxcdn.com/67mf3ia_s88QV6UgEhIKQN7PjI0=/0x0/loja/dularmoveis.com/prodimg/73/0308807001629978856.jpg
+link lavadora3 https://imgs.casasbahia.com.br/50003883/1xg.jpg
+
+link micro-ondas1 https://shopfato.vteximg.com.br/arquivos/ids/321592-1000-1000/FORNO-MICROONDAS-BRASTEMP-38L-BMJ38A-INOX-127V-28491.jpg?v=635441239052170000
+link micro-ondas2 https://imgs.ponto.com.br/1507536029/1xg.jpg
+link micro-ondas3 https://shopfato.vteximg.com.br/arquivos/ids/320752-1000-1000/FORNO-MICROONDAS-CONSUL-20L-CM020B-CINZA-127V-28494.jpg?v=635441239052170000
+
+ELETRONICOS
+link televisao1
+link televisao2
+link televisao3
+link televisao4
+
+link home-theater1
+link home-theater2
+link home-theater3
+link home-theater4
+
+link projetor1
+link projetor2
+
+link acessório1
+link acessório2
+link acessório3
+
+SMARTPHONES
+link motorola1
+link motorola2
+link motorola3
+
+link samsung1
+link samsung2
+link samsung3
+
+link apple1
+link nokia
+
+
+MOBILIA
+link armario1
+link armario2
+
+link mesa1
+link mesa2
+
+link gaveteiro1
+link gaveteiro2
+
+INFORMATICA
+link desktop1
+link desktop2
+link desktop3
+
+link notebook1
+link notebook2
+link notebook3
+
+link acessórios1
+link acessórios2
+
+OUTROS
