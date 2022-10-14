@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Load an icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato | UVA Trabalho</title>
+
+    <style>
+        body{
+            background-color: #ffee58;
+        }
+        .card-action{
+            text-align: center;
+        }        
+    </style>
+</head>
+<body>   
+    <!--Início do Cabeçalho-->
+    <nav class="nav-extended">
+        <div class="nav-wrapper blue darken-2">
+            <div class="container">
+                <a href="https://commandbear.github.io/materialize-uva/index.html" class="brand-logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/UVA_logo.svg/1024px-UVA_logo.svg.png" alt="" width="50" height="50"></a>
+                <div class="right hide-on-large-only" data-target="personal-links">
+                    <a href="#"><i class="material-icons left">shopping_cart</i></a>
+                    <a href="https://commandbear.github.io/materialize-uva/contact.html"><i class="material-icons left">contact_mail</i></a>
+                    <a href="#"><i class="material-icons left">person</i></a>
+                </div>
+                
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Carrinho
+                        <i class="material-icons left">shopping_cart</i>
+                    </a></li>
+                    <li><a href="https://commandbear.github.io/materialize-uva/contact.html">Contato
+                        <i class="material-icons left">contact_mail</i>
+                    </a></li>
+                    <li><a href="#">Perfil
+                        <i class="material-icons left">person</i>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="nav-wrapper yellow darken-2">
+            <div class="container">
+                <a href="#" class="sidenav-trigger" data-target="category-links">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="hide-on-med-and-down">
+                    <li><a href="https://commandbear.github.io/materialize-uva/index.html">Início</a></li>
+                    <li><a href="#">Eletrodoméstico</a></li>
+                    <li><a href="#">Eletrônicos</a></li>
+                    <li><a href="#">Smartphones</a></li>
+                    <li><a href="#">Móveis</a></li>
+                    <li><a href="#">Informática</a></li>
+                    <li><a href="#">Outros</a></li>                                        
+                </ul>
+            </div>
+        </div>
+    </nav>    
+
+    <ul class="sidenav" id="personal-links">
+        <li><a href="#"><i class="material-icons left">shopping_cart</i></a></li>
+        <li><a href="https://commandbear.github.io/materialize-uva/contact.html"><i class="material-icons left">contact_mail</i></a></li>
+        <li><a href="#"><i class="material-icons left">person</i></a></li>
+    </ul>
+    
+    <ul class="sidenav" id="category-links">
+        <li><a href="#"><i class="material-icons">home</i></a></li>
+        <li><a href="#">Eletrodoméstico</a></li>
+        <li><a href="#">Eletrônicos</a></li>
+        <li><a href="#">Smartphones</a></li>
+        <li><a href="#">Móveis</a></li>
+        <li><a href="#">Informática</a></li>
+        <li><a href="#">Outros</a></li>
+    </ul>
+    <!--Fim do Cabeçalho-->    
+
+    <!--JQuery-->
+    <script 
+    src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        })
+    </script>
+</body>
+</html>
