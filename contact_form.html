@@ -84,25 +84,29 @@
     </ul>
     <!--Fim do Cabeçalho-->
     
-    
-    <section class="section container white" id="contact_form">
-        <div class="row">
-            <!--<img class="center-align" src="https://picsum.photos/id/3/5616/3744" alt="" weight="200" height="200">-->
-            <div class="col s12 l5">
-                <h3>Fale conosco.</h3>
-                <p class="flow-text">
-                    Deixe sua dúvida, sugestão, reclamação ou elogio, para sabermos se estamos no caminho certo.
-                </p>
-            </div>
-            <div class="col s12 l5 offset=l2">
-                <form action="">
-                    <div class="input-field">
-                        
-                    </div>
-                </form action>
-            </div>
+    <section class="section container scrollspy" id="contact">
+      <div class="row">
+        <div class="col s12 l5">
+          <h2 class="indigo-text text-darken-4">Get in Touch</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
         </div>
+        <div class="col s12 l5 offset-l2">
+          <form>
+            <div class="input-field">
+              <i class="material-icons prefix">email</i>
+              <input type="email" id="email">
+              <label for="email">Your Email</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">message</i>
+              <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
+              <label for="message">Your Message</label>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
+    
 
     <!--JQuery-->
     <script 
@@ -114,7 +118,7 @@
     <script>
         $(document).ready(function(){
             $('.sidenav').sidenav();
-        })
+        });
     </script>
 </body>
 </html>
